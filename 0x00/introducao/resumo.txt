@@ -1,0 +1,33 @@
+# ****Microsserviços****
+
+*** O que é microsserviços ? ***
+    Microsserviços são uma abordagem de arquitetura para a criação de aplicações. Como um framework de arquitetura, microsserviços são distribuídos e levemente acoplados para que as mudanças de uma equipe não corrompam toda a aplicação. A vantagem de usar microsserviços é que as equipes de desenvolvimento conseguem criar rapidamente novos componentes de aplicação para atender às necessidades de negócios em constante mudança.
+    
+    Fonte: [https://www.redhat.com/pt-br/topics/microservices/what-are-microservices#benefícios](https://www.redhat.com/pt-br/topics/microservices/what-are-microservices#benef%C3%ADcios)
+    
+*** Visão geral da arquitetura Monolítica e de Microserviços ***
+    **Arquitetura monolítica**
+    As linguagens de desenvolvimento de aplicações permitem que os sistemas sejam quebrados em módulos. No entanto, a forma tradicional projetada para o desenvolvimento de software é a criação de toda a arquitetura em um único executável monolítico.
+    Esse modelo é a forma de desenvolver um sistema a fim de que todas as funções estejam em um único processo. Os diversos módulos do sistema são executados em uma mesma máquina, compartilhando recursos de processamento, memória, bancos de dados e arquivos.
+    Como o sistema está inteiro naquele bloco, o desenvolvimento é mais ágil e é possível subir uma prova de conceito (Proof of Concept, ou PoC) ou uma primeira versão (Minimum Viable Product, ou MVP) para validar um produto ou negócio. O sistema monolítico é de desenvolvimento e compreensão simplificados, permitindo a execução por uma equipe menor e com menos qualificação.
+    
+    **Arquitetura de microsserviços**
+    É uma maneira diferente de organizar e desenvolver softwares que visa criar diversos sistemas independentes, mas interligados. Desse modo, cada um dos microsserviços funciona dentro de seu próprio processo, com seu código especialista e banco de dados independente. Importante salientar que, por mais que o nome seja micro, não estamos diante de sistemas obrigatoriamente de baixa complexidade ou pequenos. Os microsserviços podem ser grandes e complexos sistemas interligados em outros microsserviços de diversos tamanhos e funcionalidades.
+    O maior trunfo é o desenvolvimento de acordo com a função, que fica bem-delimitada e serve a um propósito específico. Se pudéssemos resumir a arquitetura de microsserviços em uma palavra, seria especialização. Como cada serviço tem uma implantação diferente, a subida de uma nova versão não atrapalha a disponibilidade dos demais. Também é possível isolar os itens críticos em uma infraestrutura separada para escalar de forma independente do restante do sistema.
+    Desse modo, basta que seja possível integrá-los, mas eles não necessariamente precisam ser todos desenvolvidos pela mesma equipe. A software house pode até mesmo terceirizar questões específicas para, depois, utilizar os serviços desenvolvidos em seus sistemas de forma integrada.
+    Por ser uma estrutura mais complexa, exige um maior nível de automação das implementações. Além disso, orquestrar todos os microsserviços é essencial para que tudo funcione. A complexidade exige desenvolvedores com qualificação maior ou, ao menos, uma boa coordenação de DevOps (Desenvolvimento e Operações) para assegurar um bom funcionamento.
+    
+    Fonte: [https://blog.vinco.com.br/arquitetura-de-microsservicos-x-arquitetura-monolitica/](https://blog.vinco.com.br/arquitetura-de-microsservicos-x-arquitetura-monolitica/)
+    
+*** Os benefícios da arquitetura de microsserviços - Cite 3 exemplos ***
+ - Lançamento no mercado com mais rapidez:** Como os ciclos de desenvolvimento são reduzidos, a arquitetura de microsserviços é compatível com implantações e atualizações mais ágeis.
+ - Altamente escalável:** À medida que a demanda por determinados serviços aumenta, você pode fazer implantações em vários servidores e infraestruturas para atender às suas necessidades.
+ - Resiliente:** Os serviços independentes, se construídos corretamente, não afetam uns aos outros. Isso significa que, se um elemento falhar, o restante da aplicação permanece em funcionamento, diferentemente do modelo monolítico.
+    
+    Fonte: [https://www.redhat.com/pt-br/topics/microservices/what-are-microservices#benefícios](https://www.redhat.com/pt-br/topics/microservices/what-are-microservices#benef%C3%ADcios)
+    
+    
+*** Quais são os tipos de comunicação entre os microsserviços ? **
+    Comunicação por HTTP, Comunicação por Mensagens e Comunicação Orientada a Eventos.*
+    
+    Fonte: [https://oieduardorabelo.medium.com/micro-serviços-3-métodos-de-comunicação-entre-serviços-5bc49021c991](https://oieduardorabelo.medium.com/micro-servi%C3%A7os-3-m%C3%A9todos-de-comunica%C3%A7%C3%A3o-entre-servi%C3%A7os-5bc49021c991)
