@@ -1,0 +1,15 @@
+O que é Arquitetura Serverless ?
+Uma Arquitetura Serverless (ou, em tradução livre, Arquitetura sem Servidor) é uma estrutura de aplicativos que hospeda serviços do tipo “Backend-as-a-Service” (BaaS) de terceiros e pode executar ou incluir código personalizado em containers gerenciados a partir de uma plataforma “Function-as-a-Service” (FaaS). Isso significa que a computação sem servidor permite que os desenvolvedores comprem serviços de backend em um modelo flexível, baseado na uberização do “pague conforme o uso”. Em outras palavras, os desenvolvedores só precisam pagar pelos serviços que usam, e gerenciar seu uso e sua disponibilidade para os usuários.
+
+O que é Function as a service (FaaS) ?
+Function as a Service (FaaS) é um serviço de computação em nuvem que busca abstrair a questão de servidor e máquinas onde rodam os seus programas. Em detalhes, ela deriva da filosofia Servless, que delega ao provedor de computação em nuvem (Cloud Provider) provisionar uma plataforma que permita ao cliente: desenvolver, rodar e gerenciar aplicações. Nestes moldes, reduz-se a complexidade de uma pessoa ter que montar e manter a infraestrutura, atual padrão de todo mercado corporativo. Montando uma aplicação com este padrão, implementamos a teoria Servless e criamos uma arquitetura nativa de microsserviços.
+
+Quais são os benefícios de usar arquitetura Serverless ?
+Arquiteturas sem servidor podem se beneficiar de custos operacionais, complexidade e tempo de execução de engenharia significativamente reduzidos
+
+O que é Cloud Computing (Computação em Nuvem) ? E quais são seu benéficios ?
+Resumindo, a computação em nuvem é o fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet (“a nuvem”) para oferecer inovações mais rápidas, recursos flexíveis e economias de escala. Você normalmente paga apenas pelos serviços de nuvem que usa, ajudando a reduzir os custos operacionais, a executar sua infraestrutura com mais eficiência e a escalonar conforme as necessidades da sua empresa mudam.
+Principais benefícios da computação em nuvem: Custo, Velocidade, Produtividade, Desempenho, Confiabilidade, Segurança.
+
+Quais são as principais diferença entre Arquitetura Monólitica, Microsserviços e Serverless ?
+A Arquitetura Monólitica tudo é feito em um único bloco, no Microsserviços tudo é dividido em pequenas funções e Serverless, assim como em microsserviços é divido em pequenas funções, porém ficam todas na nuvem.
